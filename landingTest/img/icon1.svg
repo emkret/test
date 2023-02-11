@@ -1,0 +1,22 @@
+<svg id="Group_2078" data-name="Group 2078" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Coins_Background_Mask_" data-name="Coins (Background/Mask)" width="34" height="34" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_8" data-name="Rectangle 8" width="80" height="80" rx="16" fill="#05ab6e"/>
+  <g id="Coins" transform="translate(23 23)">
+    <rect id="Coins_Background_Mask_2" data-name="Coins (Background/Mask)" width="34" height="34" fill="none"/>
+    <g id="Coins-2" data-name="Coins" clip-path="url(#clip-path)">
+      <g id="Group" transform="translate(1.648 1.649)">
+        <path id="Vector" d="M15.36,30.72A15.36,15.36,0,1,1,30.72,15.36,15.36,15.36,0,0,1,15.36,30.72Z" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.538" stroke-dasharray="0 0"/>
+        <path id="Vector-2" data-name="Vector" d="M11.52,23.04A11.52,11.52,0,1,1,23.04,11.52,11.52,11.52,0,0,1,11.52,23.04Z" transform="translate(3.84 3.84)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="1.538" stroke-dasharray="0 0"/>
+        <g id="Group-2" data-name="Group" transform="translate(11.264 8.414)">
+          <g id="Group-3" data-name="Group">
+            <path id="Vector-3" data-name="Vector" d="M3.584,13.415v-.99A5.472,5.472,0,0,1,.205,11.093.673.673,0,0,1,0,10.616a.781.781,0,0,1,.734-.768A.738.738,0,0,1,1.177,10a4.856,4.856,0,0,0,2.389,1.024V7.51C1.895,7.066.154,6.52.154,4.523c0-1.621,1.382-2.85,3.413-2.986V.529A.551.551,0,0,1,4.13,0h.017a.536.536,0,0,1,.546.529V1.553A4.821,4.821,0,0,1,7.51,2.662a.677.677,0,0,1,.2.478.751.751,0,0,1-.768.752.7.7,0,0,1-.375-.12,4.3,4.3,0,0,0-1.86-.785V6.076C6.383,6.5,8.175,7.134,8.158,9.25c0,1.536-.99,3-3.447,3.157v.99a.536.536,0,0,1-.546.529H4.131A.54.54,0,0,1,3.584,13.415Z" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

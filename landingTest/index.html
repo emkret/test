@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OnceHosting</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+	<script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+	  <div class="login text-light">
+		<h1 class="text-center">Register</h1>
+		<form class="needs-validation">
+			<div class="form-group was-validated">
+				<label class="form-label" for="email">Email address</label>
+				<input class="form-control" type="email" id="email" required>
+				<div class="invalid-feedback">
+					Please enter your email address
+				</div>
+			</div>
+
+			<div class="form-group was-validated">
+				<label class="form-label" for="password">Password</label>
+				<input class="form-control type="password" id="password" required>
+				<div class="invalid-feedback">
+					Please enter your password
+				</div>
+			</div>
+			<div class="form-group form-check">
+				<input class="form-check-input" type="checkbox" id="checkbox">
+				<label class="form-check-label" for="check">Remember me</label>
+			</div>
+
+			<input class="btn btn-success w-100" type="submit" value="Sign In">
+			<button class="btn-out btn btn-danger w-100 mt-3">Zamknij</button>
+		</form>
+	  </div>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3" style="position: fixed; width:100vw; z-index: 10;">
+    <div class="container">
+      <a class="navbar-brand" href="#home">OnceHosting</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mx-4">
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#services">Features</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item mx-3">
+           <a class="nav-link" href="#review">Reviews</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="#footer">Contact Us</a>
+          </li>
+        </ul>
+        <button class="button btn1">Sign up</button>
+      </div>
+    </div>
+  </nav>
+  <section class="hero text-light p-5 text-center text-sm-start" id="home">
+		<div class="container py-5">
+			<div class="d-sm-flex align-items-center justify-content-between py-5">
+				<div class="mx-2">
+					<h1 class="hero_h1">Hosting Premium Live</h1>
+					<h1 class="hero_h1">Courses For Expert</h1>
+					<p class="hero_p my-4 mx-2">Use our services as a medium to share your website wider and cover
+						the whole world, we are the best hosting service provider in the world and have
+						high integrity and capability as a hosting provider</p>
+					<button  class="button_primary btn1 my-2">Sign Up</button>
+					<button  class="button_secondary my-2"> <a href="#services">Learn More</a></button>
+				</div>
+				<img src="/img/bg.png" class="img-fluid my-4 col-lg-5 col-md-5 col-sm-6" width="500"alt="img" >
+			</div>
+		</div>
+  </section>
+  <!-- start slider -->
+	<section class="slider_container">
+		<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+			<div class="carousel-inner">
+			<div class="carousel-item active" data-bs-interval="10000">
+				<img src="/img/img4.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h2>Lorem ipsum</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro modi amet minus nisi numquam temporibus quis vero sint sequi! Quia fugit odit doloribus error at similique nihil, praesentium totam eaque?</p>
+				</div>
+			</div>
+			<div class="carousel-item" data-bs-interval="2000">
+				<img src="/img/img2.jpg" class="d-block w-100 " alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h2>Lorem ipsum</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro modi amet minus nisi numquam temporibus quis vero sint sequi! Quia fugit odit doloribus error at similique nihil, praesentium totam eaque?</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img src="/img/img3.jpg" class="d-block w-100" alt="...">
+				<div class="carousel-caption d-none d-md-block">
+					<h2>Lorem ipsum</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro modi amet minus nisi numquam temporibus quis vero sint sequi! Quia fugit odit doloribus error at similique nihil, praesentium totam eaque?</p>
+				</div>
+			</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+			</button>
+		</div>
+	</section>
+  <!-- end slider -->
+
+<section class="p-5" id=services>
+	<div class="container py-5">
+		<div class="col text-center mt-5 mb-5 services_title">
+			<h6>services</h6>
+			<h3>Why Choose Us</h3>
+		</div>
+		<div class="row text-center mt-5 g-4">
+			<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				<div class=" services_item  card border-light rounded-4">
+					<div class="card-body text-center">
+						<div class="h1 mb-3"><img src="/img/icon1.svg"  alt="">
+						</div>
+						<h3 class="card-title mb-2">Affordable costs</h3>
+						<p class="card-text">affordable costs for all people both used for business and as a medium of learning</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-3"">
+				<div class=" services_item  card   border-light rounded-4">
+					<div class="card-body text-center ">
+						<div class="h1  mb-3"><img src="/img/icon2.svg" alt="">
+						</div>
+						<h3 class="card-title mb-2">Safe system</h3>
+						<p class="card-text">aSafe and reliable system with very strong security makes this hosting very safe</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				<div class=" services_item  card  border-light rounded-4">
+					<div class="card-body text-center">
+						<div class="h1 mb-3"><img src="/img/icon3.svg" alt="">
+						</div>
+						<h3 class="card-title mb-2">Easy to use</h3>
+						<p class="card-text">very easy to use, just register your email and enter the domain name you want</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-3">
+				<div class=" services_item  card  border-light rounded-4">
+					<div class="card-body text-center">
+						<div class="h1 mb-3"><img src="/img/icon4.svg" alt="">
+						</div>
+						<h3 class="card-title mb-2">Service 24/7</h3>
+						<p class="card-text">Customer service is available 24 hours without stopping to ensure our services</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="p-5" id="pricing">
+	<div class="container-fluid">
+		<div class="col text-center mt-5 mb-2 services_title">
+			<h6>pricing</h6>
+			<h3>Choose your plans</h3>
+			<p>Choose your favorite price package and adjust it to your current needs</p>
+		</div>
+		<div class="row d-flex justify-content-center align-items-center">
+			<div class="offer_animation m-2 col-12 col-sm-8 col-md-5 col-lg-3 col-xl-2 shadow rounded-4">
+				<div>
+					<div class="card-body text-left p-4">
+						<h3 class="card-title mb-3">Regular</h3>
+						<h2>$24,00<span class="xsmall">/Month</span></h2>
+						<ul><p>Small package with many and attractive
+							benefits for you</p>
+							<li> <img src="/img/check-circle.svg" style="width: 18px" alt=""> 1 GB space</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Unlimited traffic</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Unlimited email</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Free weekly sitebuilder</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Free SSL</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Small cloud resorce</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Turbo booster optional</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Security 360 optional</li>
+						</ul>
+						<button class="button_offer">Buy Now</button>
+					</div>	
+				</div>
+			</div>		
+			<div class="offer_animation m-2 col-12 col-sm-8 col-md-5 col-lg-3 col-xl-2  text-light bg-success shadow rounded-4">
+				<div>
+					<div class="card-body text-left p-4">
+						<h3 class="card-title mb-3">Medium</h3>
+						<h2>$84,00<span class="xsmall">/Month</span></h2>
+						<ul><p>Medium package with many and attractive
+							benefits for you</p>
+							<li><img src="/img/check-circle-fill.svg" style="width: 18px" alt="">Unlimited space</li>
+							<li><img src="/img/check-circle-fill.svg" style="width: 18px" alt="">Unlimited traffic</li>
+							<li><img src="/img/check-circle-fill.svg" style="width: 18px" alt="">Unlimited email</li>
+							<li><img src="/img/check-circle-fill.svg" style="width: 18px" alt="">Free weekly sitebuilder</li>
+							<li><img src="/img/check-circle-fill.svg" style="width: 18px" alt="">Free SSL</li>
+							<li><img src="/img/check-circle-fill.svg" style="width: 18px" alt="">Medium cloud resorce</li>
+							<li><img src="/img/check-circle-fill.svg" style="width: 18px" alt="">Turbo booster super</li>
+							<li><img src="/img/check-circle-fill.svg" style="width: 18px" alt="">Security 360 optional</li>
+						</ul>
+						<button class="button_middle">Buy Now</button>
+					</div>	
+				</div>
+			</div>		
+			<div class="offer_animation m-2 col-12 col-sm-8 col-md-5 col-lg-3 col-xl-2  shadow rounded-4">
+				<div>
+					<div class="card-body text-left p-4">
+						<h3 class="card-title mb-3">Premium</h3>
+						<h2>$124,00<span class="xsmall">/Month</span></h2>
+						<ul><p>Premium package with many and attractive
+							benefits for you</p>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Unlimited space</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Unlimited traffic</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Unlimited email</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Free monthly sitebuilder</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Free SSL</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Large cloud resorce</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Super Turbo booster optional</li>
+							<li><img src="/img/check-circle.svg" style="width: 18px" alt="">Security 360 optional</li>
+						</ul>
+						<button class="button_offer">Buy Now</button>
+					</div>	
+				</div>
+			</div>		
+		</div>
+	</div>
+</section>
+<section class="contact bg-primary rounded-4 mb-5" id="review">
+			<div class="row">
+				<div class="col text-center text-light py-5">
+					<h1 class="contact_h1 pt-5">Ready To Get Started?</h1>
+					<p class="contact_p p-2">Immediately join us, make your life more alive with broad and large access</p>
+					<button class="button_middle">Get Started</button>
+				</div>
+			</div>
+</section>
+<footer class="footer  text-light col" id="footer">
+	<div class="row">
+		<div class="col-xs-12 col-sm-6 col-md-5 col-xl-3 col-8">
+			<h5>OnceHosting</h5>
+			<a href="mailto:OnceHosting.info@email.com ">OnceHosting.info@email.com</a>
+			<a href="tel:(704) 555-0127">(704) 555-0127</a>
+			<a href="https://www.google.com/maps/place/Angon+-+Agencja+Reklamowa/@50.0353049,19.2226255,17z/data=!3m1!4b1!4m5!3m4!1s0x471695d6ddd37799:0x69ec082290dc6955!8m2!3d50.0353015!4d19.2248142?coh=164777&entry=tt">Konoha, Hi No Kuni</a>
+		</div>
+		<div class="col-xs-8 col-sm-6 col-md-5 col-xl-3 col-8 p-2">
+			<h5>Features</h5>
+			<a href="#">About Us</a>
+			<a href="#">Price list package</a>
+			<a href="#">Special package</a>
+			<a href="#">Promo & discount</a>
+		</div>
+		<div class="col-xs-8 col-sm-6 col-md-5 col-xl-3 col-8">
+			<h5>Services</h5>
+			<a href="#">Domain service</a>
+			<a href="#">Hosting Service</a>
+			<a href="#">Bandwitch</a>
+			<a href="#">Cloud Storage</a>
+		</div>
+		<div class="col-xs-8 col-sm-6 col-md-5 col-xl-3 col-8">
+			<h5>Support</h5>
+			<a href="#">Tearms & conditions</a>
+			<a href="#">Privacy policy</a>
+			<a href="#">FAQ's</a>
+			<a href="#">Customer services</a>
+		</div>
+	</div>
+	<div class="row text-center mt-5">
+		<p>Copyright 2021 Allright reserved / Dimo.ui</p>
+	</div>
+</footer>
+
+<script src="/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

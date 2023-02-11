@@ -1,0 +1,24 @@
+<svg id="Group_2075" data-name="Group 2075" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Headphone_Background_Mask_" data-name="Headphone (Background/Mask)" width="34" height="34" fill="none"/>
+    </clipPath>
+  </defs>
+  <rect id="Rectangle_11" data-name="Rectangle 11" width="80" height="80" rx="16" fill="#05ab6e"/>
+  <g id="Headphone" transform="translate(23 23)">
+    <rect id="Headphone_Background_Mask_2" data-name="Headphone (Background/Mask)" width="34" height="34" fill="none"/>
+    <g id="Headphone-2" data-name="Headphone" clip-path="url(#clip-path)">
+      <g id="Group" transform="translate(0.733 0.693)">
+        <g id="Group-2" data-name="Group" transform="translate(4.057)">
+          <path id="Vector" d="M0,11.23C0,5.068,5.5,0,12.191,0S24.382,5.068,24.382,11.23" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0"/>
+          <path id="Vector-2" data-name="Vector" d="M0,0V4.1" transform="translate(0.02 10.847)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0"/>
+          <path id="Vector-3" data-name="Vector" d="M0,0V4.1" transform="translate(24.382 10.847)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0"/>
+        </g>
+        <path id="Vector-4" data-name="Vector" d="M6.016,9.737a1.253,1.253,0,0,1-1.583,1.13A5.746,5.746,0,0,1,0,5.471,5.772,5.772,0,0,1,4.532.038,1.259,1.259,0,0,1,6.1,1.2l.02,4.266Z" transform="translate(0 15.33)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0"/>
+        <path id="Vector-5" data-name="Vector" d="M.1,9.737a1.253,1.253,0,0,0,1.583,1.13,5.746,5.746,0,0,0,4.433-5.4A5.772,5.772,0,0,0,1.583.038,1.259,1.259,0,0,0,.02,1.2L0,5.471Z" transform="translate(26.42 15.33)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0"/>
+        <path id="Vector-6" data-name="Vector" d="M1.524,2.808A1.468,1.468,0,0,1,0,1.4,1.468,1.468,0,0,1,1.524,0H4.591A1.468,1.468,0,0,1,6.115,1.4a1.455,1.455,0,0,1-1.524,1.4Z" transform="translate(13.24 29.825)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0"/>
+        <path id="Vector-7" data-name="Vector" d="M7.738,0a5.2,5.2,0,0,1-5.4,4.977A5.853,5.853,0,0,1,0,4.485" transform="translate(19.395 26.69)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5" stroke-dasharray="0 0"/>
+      </g>
+    </g>
+  </g>
+</svg>
